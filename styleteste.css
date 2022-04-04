@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: #ffffff;
+
+}
+#header
+{
+    padding: 20px;
+    background-color:#fd8080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#header p
+{   
+    color: #000000;
+    font-weight: 70;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#header img
+{
+    margin-right: 750px;
+}
+
+#header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li
+{
+  list-style:none;
+  margin-left: 20px;
+}
+#header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #000000;
+    border-radius: 20px;
+} 
+#header ul li a:hover
+{
+    background-color: #000000;
+    color:#fd8080;
+}
+
+#menu 
+{
+  height: 60px;
+  border-bottom-style: solid  ;
+  border-bottom-width: 1px;
+  border-bottom-color: #fd8080;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+#busca
+{
+  display: flex;
+  background-color:#fd8080;
+  border:solid 1px;
+  border-radius:12px;
+  width:180px;
+  height: 26px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+ #busca .txtbusca
+{ 
+  
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:12px;
+  border:none;
+  height: 26px;
+  
+}
+#busca ::placeholder
+{
+    color: #000000;
+}
+
+
+#menu h1
+{  
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    color: #000000;
+    padding: 20px;
+    font-weight: 30;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+#menu h1 
+{
+   letter-spacing: 3px;
+   
+}
+
+
+#corpo .produtos
+{ 
+
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+    
+}
+
+#corpo .item td
+{
+
+   background-color: #ffffff;
+   box-shadow: 10px 10px 8px rgb(255, 159, 159);
+   padding-bottom: 10px;
+   padding-left: 10px;
+   border-radius: 8px;
+
+}
+
+#corpo .item td h2
+{ 
+    color: #000000;
+    font-size: 22px;
+    font-weight: 20;
+}
+#corpo .item td p
+{
+    
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #9e8568;;
+}
+
+
+#rodape
+{
+    align-items: center;
+    background-color: #fd8080;
+    display: flex;
+    margin-top: 50px; 
+    padding: 20px 50px 15px 0px; 
+}
+
+#rodape h1
+{ 
+    
+    color: #000000;
+    font-weight: 70;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+}
+
+#rodape .institucional h2
+{
+    
+    font-weight: 71;
+    font-size: 20px;
+}
+
+#rodape .institucional
+{
+    text-align: center;
+    list-style-type: none;
+    margin-left: 400px;
+
+}
+
+#rodape .institucional a 
+{
+    text-decoration: none;
+}
+
+#rodape .institucional  li a
+{
+     
+      border-radius:60px;
+      font-size: 14px;
+      color: #000000;
+}
+ 
+#rodape .institucional li a:hover
+{ 
+        background-color: #000000;
+        color:#fd8080;
+}
+#rodape .horario h4
+{
+    font-weight: 71;
+    font-size: 20px;
+}
+#rodape .horario
+{
+    margin-top: -40px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 100px;
+}
+#rodape .horario a
+{
+    text-decoration: none;
+
+}
+#rodape .horario li a
+{
+     border-radius: 60px;
+      font-size: 14px;
+      color: #000000;
+}
+#rodape .horario li a:hover
+{ 
+        background-color: #000000;
+        color:#fd8080;
+}
+
+
+#rodape .pagamento 
+{
+    margin-top: -41px;
+    text-align: left;
+    margin-left: 400px; 
+}
+
+#rodape .pagamento h3
+{
+    font-weight: 71;
+    font-size: 20px;
+}
+#rodape .pagamento img
+{
+    
+    margin-top: 5px ;
+}
+ 
+
+
+
